@@ -1,0 +1,34 @@
+{
+  "name": "tradifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Express/express",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.12.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.2.8",
+    "nexmo": "^2.4.0",
+    "nodemailer": "^4.6.8",
+    "otp-generator": "^1.1.0",
+    "rand-token": "^0.4.0",
+    "random-token": "0.0.8",
+    "s3fs": "^2.5.0",
+    "yargs": "^12.0.2"
+  }
+}
